@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Button from '../components/Button.astro';
+import Form from '../components/Form.astro';
+---
+
+<Layout title="Contact">
+	<Header />
+	<main class="mt-16 xl:mt-24 px-8 md:px-12 xl:px-28 flex-col gap-16 xl:flex-row-reverse
+	xl:items-center">
+		<div class="flex flex-col gap-8">
+			<h1 class="text-5xl xl:text-6xl font-bold">
+				Send a messagem to  
+				<span class="text-primary dark:text-primary">us!</span>
+			</h1>
+			<p class="md">
+				Lorem ipsum dolor sit amet one suscipit assumenda temporibus. Saepe sit sint, accusamus sunt minus eveniet minima quod.
+			</p>
+            <Form /> 			
+		</div>
+	</main>
+</Layout>
